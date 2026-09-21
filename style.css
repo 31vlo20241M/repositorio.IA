@@ -1,27 +1,22 @@
-:root {
-  --cor-fundo: #5a2147;
-  --cor-principal: #502579;
-  --cor-secundaria: #212333;
-  --cor-destaque: #f18bf1;
-  --cor-texto: #D7F9FF;
-}
+<!DOCTYPE html>
 
-body {
-  background-color: var(--cor-fundo);
-  color: var(--cor-texto);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Futuro da I.A</title>
+  </head>
 
-.caixa-principal {
-  background-color: var(--cor-principal);
-  width: 90%;
-  text-align: center;
-  padding: 20px;
-}
-
-h1 {
-  color: var(--cor-destaque);
-}
+<body>
+  <div class="caixa-principal">
+    <h1>Você decide o futuro da IA</h1>
+    <div class="caixa-perguntas"></div>
+    <div class="caixa-alternativas"></div>
+    <div class="caixa-resultado">
+        <p class="texto-resultado"></p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
